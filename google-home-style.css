@@ -5,9 +5,14 @@
     box-sizing: border-box;
  
 }
-nav a {
-    padding: 0px 20px;
+nav div a {
+    padding: 10px 20px;
     text-decoration: none;
+    background-color:deeppink;
+}
+
+#apps {
+    
 }
 
 a:hover{
@@ -16,19 +21,32 @@ a:hover{
 
 #top-nav-bar {
     border: 1px solid red;
-    padding: 15px;
+    padding: 15px 0px;
+    margin-top: 0px;
+    width: 100%; 
+    display:flex;
 }
     #top-nav-bar-left{
         text-align: left;
         background-color:pink;
-        display:inline;
+        display:flex;
+        align-items: center;
+        width:50%;
     }
+
     #top-nav-bar-right{
-        float: right;
+        float: right; 
         background-color:yellow;
-        display:inline;
+        display:flex;
+        align-items:center;
     }
-    
+    #signIn {
+        padding-right:5px;
+    }
+
+
+
+
 #australia{
     border: 1px solid purple;
     padding: 15px 20px;
@@ -74,4 +92,5 @@ a:hover{
     padding: 10px;
     margin: 100px auto;
 }    
+
 
