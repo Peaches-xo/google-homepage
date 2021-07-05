@@ -1,10 +1,10 @@
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -18,7 +18,7 @@ nav div a {
     color:rgba(0,0,0,.54);
 }
 
-#top-nav-bar-left a{
+#top-nav-bar-left a {
     color:#222;
 }
 
@@ -27,10 +27,11 @@ nav div a {
     font-size: 13px; 
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
+/*TOP NAV BAR */
 #top-nav-bar {
     padding: 5px 10px;
     margin-top: 0px;
@@ -39,11 +40,9 @@ a:hover{
     justify-content: space-between;
     color:rgba(0,0,0,.54);
 }    
-
-.top-nav-bar{
-    color: #222;
-}
-    #top-nav-bar-left{
+    .top-nav-bar {
+        color: #222; }
+    #top-nav-bar-left {
         text-align: left;
         display:flex;
         align-items: center;
@@ -51,55 +50,51 @@ a:hover{
     #top-nav-bar-right{
         float: right; 
         display:flex;
-        align-items:center;}
+        align-items:center; }
     
-
 /*BOTTOM NAV BAR */
-
 #bottom {
     display: flex;
     flex-direction: column;
     flex-shrink:0;
 }
-        
-#australia{
-    padding: 15px 30px; /* Checked */
-    position: absolute;
-    bottom: 48px; 
-    width: 100%;
-    color:rgba(0,0,0,.54); /* Checked */
-    background-color: #f8f9fa; /* Checked */
-    border-bottom: 1px solid #dadce0; /* Checked */
-    font-size:15px;
-}
-
-#bottom-nav-bar{
-    padding: 5px 10px;
-    width: 100%; 
-    display:flex;
-    justify-content: space-between;
-    flex-wrap:wrap;
-    color: #70757a; 
-    background-color: #f8f9fa; /* Checked */
-    position:absolute;
-    bottom:0; }
-
-    #bottom-nav-bar-left{
+    #australia {
+        padding: 15px 30px; /* Checked */
+        position: absolute;
+        bottom: 48px; 
+        width: 100%;
+        color:rgba(0,0,0,.54); /* Checked */
+        background-color: #f8f9fa; /* Checked */
+        border-bottom: 1px solid #dadce0; /* Checked */
+        font-size:15px; 
+    }
+    #bottom-nav-bar {
+        padding: 5px 10px;
+        width: 100%; 
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        color: #70757a; 
+        background-color: #f8f9fa; /* Checked */
+        position:absolute;
+        bottom:0; 
+    }
+    #bottom-nav-bar-left {
         text-align: left;
         display:flex;
         flex-wrap: wrap;
         align-items: center;
-        width: auto;
+        width: auto; 
     }
-    #bottom-nav-bar-right{
+    #bottom-nav-bar-right {
         float: right;
         display:flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items:center;
+        align-items:center; 
     }
 
-#google-logo-area{
+#google-logo-area {
     text-align: center;
     padding: 10px;
     margin: 200px auto 0 auto;
@@ -112,26 +107,26 @@ a:hover{
     width: 90%;
     outline:none;
     margin-left: 5px;   
-    border: none;  /* Checked */
-    background-color: transparent;}  /* Checked */
+    border: none;  
+    background-color: transparent;
+}  
     
-#search-button-area{
+#search-button-area {
     height: auto;
-    /*width: 560px; */
     text-align:center;
     margin-top:20px;
 }    
 
-#search-bar-div{
-  border: 1px solid #dfe1e5;
-  border-radius: 20px;
-  width: 560px;
-  height: 3em;
-  display: flex;
-  align-items: center;
+#search-bar-div {
+    border: 1px solid #dfe1e5;
+    border-radius: 20px;
+    width: 560px;
+    height: 3em;
+    display: flex;
+    align-items: center;
 }
 
-#search-bar-form{
+#search-bar-form {
     margin-top: 10px;
     padding-top: 10px;  
     display: flex;
@@ -139,56 +134,55 @@ a:hover{
     align-items: center;
 }
 
-#search-bar-div:hover{
+#search-bar-div:hover {
     box-shadow:0 1px 6px rgba(32,33,36,.28);
 }
 
-.button{
-    padding: 0 16px; /* Checked */
-    color: #3c4043; /* Checked */
-    height: 36px; /* Checked */
-    min-width: 54px; /* Checked */
-    line-height: 27px; /* Checked */
-    margin: 11px 4px; /* Checked */
-    text-align: center; /* Checked */
-    background-color: #f8f9fa; /* Checked */
-    border-radius: 4px; /* Checked */
-    border: 1px solid #f8f9fa ; /* Checked */
-    cursor: pointer; /* Checked */
+.button {
+    padding: 0 16px; 
+    color: #3c4043; 
+    height: 36px; 
+    min-width: 54px; 
+    line-height: 27px; 
+    margin: 11px 4px; 
+    text-align: center; 
+    background-color: #f8f9fa; 
+    border-radius: 4px; 
+    border: 1px solid #f8f9fa ; 
+    cursor: pointer; 
     white-space: nowrap;
 }
 
-.button:hover{
+.button:hover {
     border: 1px solid #dadce0; 
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1); /* Checked */
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1); 
     background-color: #f8f9fa;
     color: #202124;
     border-radius: 4px;
-    cursor: pointer;
-
+    cursor: pointer;    
 }
 
 #topempty {
     height: 60%;
-display:flex;
-flex-direction: column;}
-
-#bottomempty{
-height: 40%;
-display:flex;
-flex-direction: column;
-flex-grow:1;
-flex-shrink:0;
-
+    display:flex;
+    flex-direction: column;
 }
 
-.blue-button{
+#bottomempty {
+    height: 40%;
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+    flex-shrink:0;
+}
+
+.blue-button {
     color:white;
-    background-color: #1a73e8; /*Checked */
-    border: 1px solid transparent; /*Checked */
+    background-color: #1a73e8; 
+    border: 1px solid transparent; 
     border-radius: 4px;
-    padding: 9px 15px; /*Checked */
-    min-width: 80px; /*Checked */
+    padding: 9px 15px; 
+    min-width: 80px; 
     margin-left: 8px;
     margin-right:10px;
     letter-spacing: 0.25px;
@@ -197,7 +191,7 @@ flex-shrink:0;
     white-space: nowrap;
 }
 
-.blue-button:hover{
+.blue-button:hover { 
     background-color:#2b7de9;
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
     text-decoration:none;
@@ -212,7 +206,7 @@ flex-shrink:0;
     height: auto;
 }
 
-.grey-bg{
+.grey-bg { /*grey background for google app icon */
     opacity:1;
     height: 40px;
     width:40px;
@@ -226,3 +220,11 @@ flex-shrink:0;
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 750px) {
+    #bottom-nav-bar {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+}
