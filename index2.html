@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--testing to see if this page loads correctly via github pages 6/7/21-->
+<!-- Changed name to index.html to be able to upload on Discord - TOP 
+Changed name to index2 -->
     <head>
         <meta charset="utf-8">
+        
+        <link rel="icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" type="image/icon type">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="google-home-style.css" rel="stylesheet" type="text/css"> 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
         <title>Google</title> 
     </head>
     <body>
-       <nav id="top-nav-bar">
+       <nav id="top-nav-bar" class="top-nav-bar">
            <div id="top-nav-bar-left">
                <a href="#about">About</a>
                <a href="#store">Store</a> 
             </div>
             <div id="top-nav-bar-right">
-                <a href="#gmail">Gmail</a>
-                <a href="#images">Images</a> 
-                <a href="#apps"><img src="apps_black_24dp.svg" ></a> 
+                <a href="#gmail" class="blacktext">Gmail</a>
+                <a href="#images" class="blacktext">Images</a> 
+                <a class="grey-bg" href="#apps" title="Google apps"><img src="apps_black_24dp.svg" ></a> 
                 <a class="blue-button" href="#signIn">Sign In </a> 
             </div>
         </nav>  
 
-        <div id="empty">
+        <div id="topempty">
 
             <header id="google-logo-area">
                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </header>
 
-            <form method="GET" action="" id="search-bar-form">
+            <form method="GET" action="/search" id="search-bar-form" role="search">
                 <div id="search-bar-div">
-                    <input id="search-bar-input" type="text" contenteditable="true">
+                    <img src="search_black_24dp.svg" class="searchIcon" >
+                    <input id="search-bar-input" type="text" title="Search">
                 </div>
 
                 <div id="search-button-area">
@@ -40,11 +45,13 @@
             
             </form>
         </div>
+        <div id="bottomempty"></div>
         
 
-        <footer id="australia">Australia</footer>
-
+       <div id="bottom">
+        <footer id="australia">Australia</footer><br>
         <nav id="bottom-nav-bar">
+
             <div id="bottom-nav-bar-left">
                 <a href="#advertising">Advertising</a>
                 <a href="#business">Business</a> 
@@ -56,7 +63,7 @@
                 <a href="#settings">Settings</a>
             </div>
         </nav>
-
+        </div>
     </body>
 
 </html>
