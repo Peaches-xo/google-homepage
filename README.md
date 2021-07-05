@@ -45,3 +45,6 @@ What I want to dive deeper into:
 Things to come back to & change:
     - My google app icon looks to have square elements whereas the one on Google has looks to be rounded even though I sourced it from the google material icon page. Mine is black, googles is grey. 
     - The "Australia" bar disappears behind the bottom nav bar when the screen is made smaller. I would like it to be pushed to the top of the bottom nav bar. 
+    - Search icon not being displayed in Google Chrome
+    
+   
