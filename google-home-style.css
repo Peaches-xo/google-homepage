@@ -109,6 +109,7 @@ a:hover {
     margin-left: 5px;   
     border: none;  
     background-color: transparent;
+    font-size:16px;
 }  
     
 #search-button-area {
